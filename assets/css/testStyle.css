@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header {
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#day>ul>li {
+    text-decoration: dashed;
+}
+
+#day img {
+    width: 150px;
+    margin: 0 10 0 10;
+}
+
+#day>ul {
+    display: block;
+}
+
+#day li {
+    padding-left: 20px;
+}
+
+#day ul img:hover {
+    width: 200px;
+    height: auto;
+}

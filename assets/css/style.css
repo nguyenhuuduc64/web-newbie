@@ -1,0 +1,83 @@
+/*reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*
+1 vị trí
+2 kích thước
+3 màu sắc
+4 kiểu dáng
+*/
+
+#main {}
+
+#header {
+    height: 46px;
+    background-color: black;
+}
+
+#nav li {
+    position: relative;
+    font-size: 15px;
+}
+
+#nav>li>a {
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+
+/* dau > de chi den con truc tiep khong anh huong den the a cap 2*/
+
+#nav>li:hover>a {
+    color: rgb(0, 0, 0);
+    background-color: #ccc;
+    font-size: 20px;
+}
+
+#nav .subnav {
+    position: absolute;
+    background-color: #fff;
+    list-style-type: none;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#nav .subnav a {
+    color: rgb(0, 0, 0);
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ccc;
+}
+
+#slider {
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+}
